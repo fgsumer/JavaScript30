@@ -29,6 +29,22 @@
     <img src="https://cdn.pixabay.com/photo/2015/06/19/21/24/the-road-815297__340.jpg" />
 
     <style>
+      /* Default values */
+      :root {
+        --base: #e63946;
+        --spacing: 10px;
+        --blur: 10px;
+      }
+
+      img {
+        padding: var(--spacing);
+        background: var(--base);
+        filter: blur(var(--blur));
+      }
+
+      .hl {
+        color: var(--base);
+      }
       body {
         /* display: flex;
         flex: 1;

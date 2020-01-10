@@ -2,7 +2,7 @@
 
 It's a small JS project within which I use CSS variables and update them with JS.
 
-###Extra Documents
+### Extra Documents
 
 - [Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties).
 

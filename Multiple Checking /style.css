@@ -1,0 +1,46 @@
+html {
+  font-family: 'Rajdhani', sans-serif;
+  background: #97c5c8;
+}
+
+.inbox {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #f1f4ee;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #b4d5d7;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + p {
+  background: #f1f4ee;
+  text-decoration: line-through;
+  text-decoration-color: #ed6a5a;
+}
+
+input[type='checkbox'] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  transition: background 0.2s;
+  flex: 1;
+  font-size: 20px;
+  font-weight: 200;
+  border-left: 1px solid #b4d5d7;
+}
+h1 {
+  margin-top: 50px;
+  text-align: center;
+}
